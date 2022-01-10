@@ -1,4 +1,8 @@
 /* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -29,4 +33,34 @@
   border-radius: 10px;
   width: 136px;
   height: 36px;
+}
+.button-small-size-devices {
+  border: none;
+  background-color: transparent;
+}
+.logout-image {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-small-size-devices {
+    display: none;
+  }
+  .small-device {
+    display: none;
+  }
+}
+.small-device-list-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e6f6ff;
+  height: 100px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .nav-content-container {
+    display: none;
+  }
 }

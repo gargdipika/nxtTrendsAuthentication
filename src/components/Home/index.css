@@ -4,6 +4,9 @@
   padding: 20px;
   justify-content: space-evenly;
 }
+.home-image-sm {
+  display: none;
+}
 
 .text-container-home {
   display: flex;
@@ -20,4 +23,15 @@
 .header-description {
   color: #64748b;
   font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .home-image-lg {
+    display: none;
+  }
+  .home-image-sm {
+    display: flex;
+  }
+  .text-container-home {
+    width: 90%;
+  }
 }
