@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.text-container-home {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-home {
+  font-size: 60px;
+  color: #1e293b;
+}
+
+.header-description {
+  color: #64748b;
+  font-size: 20px;
+}
